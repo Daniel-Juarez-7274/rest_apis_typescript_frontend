@@ -55,7 +55,7 @@ export default function ProductDetails({ product }: ProductDetailsPros) {
                         action={`productos/${product.id}/eliminar`}
                         onSubmit={(e) => {
                             if (!confirm('¿Eliminar?')) {
-                                e.preventDefault
+                                e.preventDefault()
                             }
                         }}
                     >
